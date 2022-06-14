@@ -9,10 +9,11 @@ const Footer = (props) => {
         <div className="footer-container01">
           <div className="footer-container02">
             <h1 className="footer-text textXL">
-              <span>Let&apos;s keep in touch</span>
+              <span>4 Corners Fitness</span>
             </h1>
             <span className="footer-text02">
-              Find out on any of these platforms, we respond 1-2 business days.
+              Our goal is to help you tackle anything that stands in the way of
+              a healthier you, together.
             </span>
             <div className="footer-container03">
               <div className="footer-container04">
@@ -48,26 +49,26 @@ const Footer = (props) => {
           </div>
           <div className="footer-container08">
             <div className="footer-container09">
-              <span className="footer-text03 textXS">USEFUL LINK</span>
-              <span className="footer-text04 textSM">About Us</span>
-              <span className="footer-text05 textSM">Blog</span>
-              <span className="footer-text06 textSM">Github</span>
-              <span className="footer-text07 textSM">Free Products</span>
+              <span className="footer-text03 textXS">Phone Numbers</span>
+              <span className="footer-text04 textSM">Gym: 443-281-8468</span>
+              <span className="footer-text05 textSM">
+                Jessica: 443-286-7595
+              </span>
+              <span className="footer-text06 textSM">Ken: 443-386-7979</span>
             </div>
             <div className="footer-container10">
-              <span className="footer-text08 textXS">OTHER RESOURCES</span>
-              <span className="footer-text09 textSM">License</span>
-              <span className="footer-text10 textSM">
-                Terms &amp; Conditions
+              <span className="footer-text07 textXS">Address</span>
+              <span className="footer-text08 textSM">
+                <span>3430 Sweet Air Rd</span>
+                <br></br>
+                <span>Phoenix MD 21131</span>
               </span>
-              <span className="footer-text11 textSM">Privacy Policy</span>
-              <span className="footer-text12 textSM">Contact Us</span>
             </div>
           </div>
         </div>
         <div className="footer-container11"></div>
-        <span className="footer-text13 textSM">
-          Copyright © 2021 Notus PRO React by Creative Tim.
+        <span className="footer-text12 textSM">
+          Copyright © 2022 4 Corners Fitness
         </span>
       </div>
       <style jsx>
@@ -106,7 +107,7 @@ const Footer = (props) => {
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .footer-container03 {
-            display: flex;
+            display: none;
             margin-top: var(--dl-space-space-unitandhalf);
             align-items: flex-start;
             flex-direction: row;
@@ -211,34 +212,20 @@ const Footer = (props) => {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text07 {
-            color: var(--dl-color-secondary-500);
-          }
           .footer-container10 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .footer-text08 {
+          .footer-text07 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text09 {
+          .footer-text08 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .footer-text10 {
-            color: var(--dl-color-secondary-500);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .footer-text11 {
-            color: var(--dl-color-secondary-500);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .footer-text12 {
-            color: var(--dl-color-secondary-500);
           }
           .footer-container11 {
             flex: 0 0 auto;
@@ -251,7 +238,7 @@ const Footer = (props) => {
             flex-direction: column;
             background-color: #e3e8efff;
           }
-          .footer-text13 {
+          .footer-text12 {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
