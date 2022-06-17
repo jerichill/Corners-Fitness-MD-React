@@ -54,7 +54,7 @@ const Footer = (props) => {
               <span className="footer-text05 textSM">
                 Jessica: 443-286-7595
               </span>
-              <span className="footer-text06 textSM">Ken: 443-386-7979</span>
+              <span className="footer-text06 textSM">Ken: 443-286-7979</span>
             </div>
             <div className="footer-container10">
               <span className="footer-text07 textXS">Address</span>

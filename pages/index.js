@@ -78,8 +78,7 @@ const Home = (props) => {
                 </div>
                 <h6 className="home-text09 textXL">Gym Amenities</h6>
                 <span className="home-text10">
-                  Divide details about your product or agency work into parts. A
-                  paragraph describing a feature will be enough.
+                  Divide details about your product or agency work into parts.
                 </span>
               </div>
               <div className="home-card2">
@@ -645,6 +644,7 @@ const Home = (props) => {
           }
           .home-text10 {
             color: var(--dl-color-secondary-700);
+            display: none;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
