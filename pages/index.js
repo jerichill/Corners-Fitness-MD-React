@@ -203,9 +203,14 @@ const Home = (props) => {
               <span className="home-text29">
                 Download our personal and group training price list.
               </span>
-              <button className="home-button button">
-                Download Price List (PDF)
-              </button>
+              <a
+                href="https://docs.google.com/document/d/1HPelYIvVltdQV1Pwm2Cn2vLVIrWQ1QjP/edit?usp=sharing&amp;ouid=116532513873935487604&amp;rtpof=true&amp;sd=true"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link1 button"
+              >
+                View Our Price List
+              </a>
             </div>
           </div>
           <div className="home-container20">
@@ -970,8 +975,9 @@ const Home = (props) => {
             color: var(--dl-color-secondary-400);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-button {
+          .home-link1 {
             color: var(--dl-color-pimary-900);
+            text-decoration: none;
             background-color: var(--dl-color-secondary-300);
           }
           .home-container20 {
